@@ -18,6 +18,7 @@ public class helloWebFlux {
     @GetMapping("/hello")
     public Mono<String> hello() {
         System.out.println("hello");
+        System.out.println("baibai");
         return Mono.just("Hello WebFlux!");
     }
 
