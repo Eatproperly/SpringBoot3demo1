@@ -19,6 +19,7 @@ public class helloWebFlux {
     public Mono<String> hello() {
         System.out.println("hello");
         System.out.println("baibai");
+        System.out.println("merge-test1");
         return Mono.just("Hello WebFlux!");
     }
 
