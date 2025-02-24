@@ -22,6 +22,7 @@ public class helloWebFlux {
         System.out.println("merge-test1");
         System.out.println("master");
         System.out.println("hotfix");
+        System.out.println("push test");
         return Mono.just("Hello WebFlux!");
     }
 
