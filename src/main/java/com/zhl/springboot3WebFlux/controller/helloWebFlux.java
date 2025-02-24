@@ -17,6 +17,7 @@ public class helloWebFlux {
     // 1. 基本 GET 请求
     @GetMapping("/hello")
     public Mono<String> hello() {
+        System.out.println("hello");
         return Mono.just("Hello WebFlux!");
     }
 
