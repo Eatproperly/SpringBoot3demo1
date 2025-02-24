@@ -20,7 +20,8 @@ public class helloWebFlux {
         System.out.println("hello");
         System.out.println("baibai");
         System.out.println("merge-test1");
-        System.out.println("master-test2");
+        System.out.println("master");
+        System.out.println("hotfix");
         return Mono.just("Hello WebFlux!");
     }
 
